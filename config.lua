@@ -7,20 +7,7 @@ moneyType = 'bank'
 -- Add locations here
 -- Add jobs specific to the garage.
 bennyGarages = {
-    [1] = {coords = vector4(731.49, -1088.8, 21.74, 268.48), blip = true, useJob = false, job = {"redline"}}, --workshop Eastern highway
-    [2] = {coords = vector4(-33.85, -1054.06, 27.97, 203.83), blip = true, useJob = false, job = {"redline"}}, --Bennys workshop
-    [3] = {coords = vector4(-1155.33, -2007.34, 12.75, 160.63), blip = true, useJob = false, job = {"redline"}}, --Near airport workshop
-    [4] = {coords = vector4(1175.21, 2639.67, 37.33, 181.21), blip = true, useJob = false, job = {"redline"}}, --Northen paletto workshop
-    [5] = {coords = vector4(110.54, 6626.95, 31.36, 43.63), blip = true, useJob = false, job = {"redline"}}, --Sandy workshop
-	[6] = {coords = vector4(-572.03, -925.81, 23.46, 2.04), blip = false, useJob = false, job = {"redline"}},	--Redline
-	[7] = {coords = vector4(-669.7, -2401.39, 13.71, 153.3), blip = false, useJob = false, job = {"redline"}}, --GraffetiCustoms
-	[8] = {coords = vector4(144.93, -3030.68, 6.61, 179.7), blip = false, useJob = false, job = {"tuner"}}, --Tunercustoms
-	[9] = {coords = vector4(-327.81, -143.98, 38.59, 251.3), blip = false, useJob = false, job = {"lscustoms"}}, --LsCustoms
-	[10] = {coords = vector4(875.93, -2125.25, 30.13, 172.03), blip = false, useJob = false, job = {"westcustoms"}},
-	[11] = {coords = vector4(-1807.25, 3099.41, 32.53, 60.91), blip = false, useJob = true, job = {"military"}},
-	[12] = {coords = vector4(903.94, 3579.48, 33.43, 180.25), blip = false, useJob = false, job = {"military"}},
-	[13] = {coords = vector4(134.76, -1101.25, 28.9, 268.28), blip = false, useJob = false, job = {"lsmotors"}},
-	[14] = {coords = vector4(2524.0, 4115.41, 37.91, 332.24), blip = false, useJob = false, job = {"lsmotors"}},
+    [1] = {coords = vector4(731.49, -1088.8, 21.74, 268.48), blip = true, useJob = false, job = {"mechanic"}}, --workshop Eastern highway
 }
 
 --[[ bennyLocations = {
